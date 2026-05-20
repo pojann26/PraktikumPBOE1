@@ -5,7 +5,6 @@ public class MainDAO {
         Person person = new Person(1, "Indra");
         DAOManager m = new DAOManager();
         m.setPersonDAO(new MySQLPersonDAO());
-        
         try {
             m.getPersonDAO().savePerson(person);
         } catch (Exception e) {
