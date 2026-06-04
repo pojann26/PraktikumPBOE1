@@ -1,4 +1,4 @@
-package Pertemuan_13;
+package Pertemuan_12;
 
 // File: LambdaList.java
 // Deskripsi: Implementasi lambda pada List, digunakan sebagai parameter pada method.

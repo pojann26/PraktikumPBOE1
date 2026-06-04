@@ -1,4 +1,4 @@
-package Pertemuan_13;
+package Pertemuan_12;
 
 // File: DiskonLambda.java
 // Deskripsi: Ekspresi lambda dasar, digunakan untuk menghitung diskon.
