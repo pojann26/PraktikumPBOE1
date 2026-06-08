@@ -1,0 +1,26 @@
+package PBO08_24060124140139.Generik_ab;
+
+public class Burung extends Anabul {
+
+  // Konstruktor
+  public Burung(String nama, int umur, String jenisKelamin, String warna) {
+    super(nama, umur, jenisKelamin, warna);
+  }
+
+  // Override metode gerak() dari superclass Anabul
+  @Override
+  public void gerak() {
+    System.out.println(nama + " bergerak dengan terbang efisien.");
+  }
+
+  // Override metode bersuara() dari superclass Anabul
+  @Override
+  public void bersuara() {
+    System.out.println(nama + " berbunyi: cuit!!!");
+  }
+
+  // Metode khusus Burung
+  public void terbangTinggi() {
+    System.out.println(nama + " sedang terbang tinggi ke atas awan.");
+  }
+}
